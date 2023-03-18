@@ -4,7 +4,7 @@ const upDownSlice = createSlice({
   name: "upDownCount",
   initialState: 0,
   reducers: {
-    increseCount(state, action) {
+    increseCount : (state, action)=> {
       state =state+5;
       return state;
     },

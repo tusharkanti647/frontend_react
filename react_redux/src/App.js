@@ -3,6 +3,7 @@
 
 import Button from "./components/Button";
 import CountBar from "./components/CountBar";
+import RenderData from "./components/RenderData";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h2>Start editing to see some magic happen!</h2>
       <CountBar />
       <Button />
+      <RenderData />
     </div>
   );
 }
